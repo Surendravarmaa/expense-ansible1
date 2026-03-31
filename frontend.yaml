@@ -11,7 +11,7 @@
     ansible.builtin.service:
       name: nginx
       state: started
-      enables: yes
+      enabled: yes
 
   - name: delete default website
     ansible.builtin.file:
